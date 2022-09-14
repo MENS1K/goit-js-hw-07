@@ -8,7 +8,7 @@ const listImg = galleryItems.map((item) => {
 });
 galleryRef.insertAdjacentHTML("afterbegin", listImg.join(" "));
 new SimpleLightbox(".gallery a", {
-  captionDelay: 300,
+  captionDelay: 250,
   captionsData: "alt",
 });
 console.log(galleryItems);
